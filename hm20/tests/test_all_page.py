@@ -1,6 +1,6 @@
-from hm21.pages.main_page import MainPage
-from hm21.pages.catalog_page import CatalogPage
-from hm21.pages.login_page import LoginPage
+from hm20.pages.main_page import MainPage
+from hm20.pages.catalog_page import CatalogPage
+from hm20.pages.login_page import LoginPage
 
 
 

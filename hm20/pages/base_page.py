@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from hm21.helpers.assertion import Assertions
+from hm20.helpers.assertion import Assertions
 
 
 class BasePage(Assertions):

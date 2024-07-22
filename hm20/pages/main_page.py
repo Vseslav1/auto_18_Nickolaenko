@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
-from hm21.pages.base_page import BasePage
-from hm21.helpers.url import BASE_URL
-from hm21.locators.locators import MarketYandexLocators
+from hm20.pages.base_page import BasePage
+from hm20.helpers.url import BASE_URL
+from hm20.locators.locators import MarketYandexLocators
 
 
 class MainPage(BasePage, MarketYandexLocators):
