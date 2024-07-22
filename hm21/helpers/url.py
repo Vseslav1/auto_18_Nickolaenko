@@ -1,0 +1,1 @@
+BASE_URL = 'https://market.yandex.by/'
