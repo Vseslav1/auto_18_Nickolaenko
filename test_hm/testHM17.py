@@ -1,10 +1,9 @@
 import pytest
 
-from hm5 import generate_squares
-from pytest import mark, fixture
-from hm5 import get_longest_word
-from hm6 import func_square
-from hm6 import output_numbers
+from test_hm.hm5 import generate_squares
+from test_hm.hm5 import get_longest_word
+from test_hm.hm6 import func_square
+from test_hm.hm6 import output_numbers
 
 
 class TestHm5Exercise3():
@@ -121,9 +120,10 @@ class TestHm6Exercise1():
 
 
 @pytest.fixture
-def file_data():
+def file_data(*args):
     with open('vesh.txt', 'r') as file:
         yield file.read()
+
 
 
 class TestHm6Exercise3():
